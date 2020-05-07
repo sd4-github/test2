@@ -1,0 +1,5 @@
+<p>detailscmpnt works!</p>
+<ul *ngFor="let v of fetchId">
+    <li><a routerLink="{{v.id}}">{{v.name}}</a></li>
+</ul>
+<router-outlet></router-outlet>
